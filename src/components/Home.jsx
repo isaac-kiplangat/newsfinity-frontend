@@ -6,7 +6,7 @@ import Banner from './Banner'
 const Home = () => {
   return (
     <div >
-      <div className='flex flex-row gap-8'>
+      <div className=' grid md:flex flex-row gap-8'>
 
         <div className='basis-2/3'>
           <Banner/>

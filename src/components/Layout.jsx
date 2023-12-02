@@ -5,7 +5,7 @@ import Footer from './Footer'
 
 const Layout = () => {
   return (
-    <div className='w-3/4 mx-auto'>
+    <div className='md:w-3/4 md:mx-auto mx-4'>
       <Navbar/>
       <Outlet/>
       <Footer/>

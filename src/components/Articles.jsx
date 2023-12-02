@@ -25,9 +25,9 @@ const Articles = () => {
     
   ]
   return (
-    <div className='my-8 w-full grid grid-cols-3 gap-8'>
+    <div className='my-8 w-full grid md:grid-cols-3 gap-4'>
       {list.map((item,index)=>(
-        <ArticlesCard index={index} articleData={item} key={index}/>
+        <ArticlesCard index={index + 1} articleData={item} key={index}/>
       ))}
     </div>
   )

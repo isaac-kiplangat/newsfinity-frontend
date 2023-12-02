@@ -21,10 +21,10 @@ const Sidebar = () => {
       <h1 className='text-[#e9ab53] text-3xl font-bold pb-4 pt-8'>New</h1>
       <ul>
         {Notes.map((item,index)=>(
-          <li className='my-4'>
+          <li className='my-2'>
             <div className='text-[#fffdfa] mb-8'>
-            <h2 className='text-2xl font-semibold py-2'>{item.title}</h2>
-            <p className='font-light font-md pr-2 break-words leading-relaxed '>{item.note}</p>
+            <h2 className='text-xl font-semibold pb-1 '>{item.title}</h2>
+            <p className='font-light text-sm break-words leading-relaxed '>{item.note}</p>
             </div>
             <hr />
           </li>
